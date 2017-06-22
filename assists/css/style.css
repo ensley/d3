@@ -1,0 +1,36 @@
+#circle circle {
+	fill: none;
+	pointer-events: all;
+}
+
+svg {
+	font: 10px sans-serif;
+}
+
+.group path {
+	fill-opacity: .35;
+}
+
+path.ribbon {
+	stroke: #000;
+	stroke-width: .25px;
+	fill-opacity: 0.95;
+}
+
+#circle:hover path.fade {
+	display: none;
+}
+
+text.team {
+	font: 48px sans-serif;
+	text-anchor: end;
+	dominant-baseline: text-before-edge;
+	fill: #333;
+}
+
+text.total {
+	font: 36px sans-serif;
+	text-anchor: end;
+	dominant-baseline: text-before-edge;
+	fill: #333;
+}
